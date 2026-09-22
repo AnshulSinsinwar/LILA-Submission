@@ -2,4 +2,4 @@ Deployed (Live) Link:
 Credentials: 
 User Name - anshul@lilagames.com
 Password - password123
-GitHub Repo: 
+GitHub Repo: https://github.com/AnshulSinsinwar/LILA-Submission
