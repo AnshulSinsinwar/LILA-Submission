@@ -1,0 +1,61 @@
+Associate Product Manager
+Apply
+Job Title: Associate Product Manager, Mobile Gaming
+
+Location: Bangalore, India (Full-Time In-Office)
+
+ 
+
+About:
+
+We are dedicated to creating unique and exceptional mobile gaming experiences. Our studio is a place where data-driven strategy meets bold creativity, and we believe that high-quality art is a core pillar of our product’s success. We are looking for passionate, high-IQ leaders to join our team and help us build the next generation of remarkable games.
+
+ 
+
+The Role:
+
+You’ll be the product manager at the crossroads of creative vision and commercial outcomes. Partnering with the Art Director, you’ll drive visual identity, production efficiency, and the measurable impact of content on retention, engagement, and monetization. You’ll also be involved in User Acquisition (UA) and Ad Monetization( subject to bandwidth/fit).
+
+ 
+
+What You’ll Do:
+
+Art Team Management
+
+Content roadmap: Own the in-game art content plan (characters, cosmetics, environments, event art) in tight sync with Live Ops and business goals.
+KPI impact: Define and track content KPIs (e.g., D1/D7 retention lift, engagement, conversion, ARPDAU) and run A/B tests across art variants and marketing creatives.
+Pipeline & sprints: Oversee brief → concept → production → integration → in-engine optimization; manage sprints, capacity, quality bars, and predictability.
+Process improvement: Identify bottlenecks, set SLAs for asset stages, and drive continuous improvement in cycle time and hit rate.
+Cross-functional glue: Translate commercial goals into crisp creative briefs; keep Design, Engineering, Marketing, and Community in lockstep.
+Talent & culture: Partner on hiring (role definitions, portfolio screens, interviews). Set a high-candor, ego-free feedback culture; mentor for craft and velocity.
+AI-assisted workflow: Evaluate and integrate generative AI tools (e.g., Midjourney, Kaedim) to accelerate ideation, automate repetitive steps, and expand style space—without compromising consistency or IP safety. Lead the evaluation, selection, and implementation of new technologies and software that can future-proof our art pipeline and create significant competitive advantage.  
+UA & Ad Monetization (as bandwidth/fit allows)
+
+Partner with Growth on channel mix, creative testing, and measurement; ensure art-creative feedback loops tighten CPI and boost CTR/IR.
+Coordinate in-game ad unit strategy (placements, frequency capping) with Live Ops; monitor ARPDAU, eCPM, and payer-safe guardrails.
+Align marketing art guidelines with in-game style for brand coherence and higher creative win rates. 
+What You’ll Bring:
+
+Must-Haves:
+
+High IQ with the ability to address significant problems from first principles and in a well-structured way.
+Massive attention to detail, ensuring you don’t miss any minor issues.
+Extreme discipline, such that you are always on top of your work without needing others to remind you.
+Exceptional analytical skills.
+Deep caring about your work and the delivery of your work and the output of the teams you manage.
+Strong personality with the ability to both give and receive constructive feedback with respect.
+Outstanding communication, collaboration, and leadership skills, with the ability to inspire teams and influence stakeholders at all levels.
+Nice-to-Haves:
+
+2+ years in mobile F2P product roles; shipped or operated a live-service title.
+Experience as PM, managing teams, UA or Admon.
+Familiarity with art tools (Photoshop, Maya, ZBrush, Substance), engines (Unity/Unreal).
+Hands-on A/B testing, UA creative iteration, and basic ad monetization mechanics.
+Practical exposure to integrating generative AI into production safely.
+Why You’ll Love It Here:
+
+Impact: You will have a direct and measurable impact on our very ambitious game, shaping its visual identity and commercial success.
+Ownership: You will be given the autonomy and resources to build and lead a high-performance creative product vertical.
+Innovation: You will be at the forefront of the industry, empowered to explore and implement cutting-edge technologies like AI.
+Culture: You will join a passionate, collaborative, and data-informed team that values both creative excellence and business results.
+Benefits: We offer a competitive salary, a comprehensive benefits package, and a work environment that strongly supports your professional growth.

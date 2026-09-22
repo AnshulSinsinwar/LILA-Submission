@@ -1,0 +1,53 @@
+﻿Top 5 matches by file count:
+  ff73c97b-3b34-4836-a8a1-47b2f94dd77c.nakama-0: 15 files
+  41d4555d-1ca9-4e3d-b82f-168bef19d865.nakama-0: 15 files
+  b971c686-07f6-4378-ad00-71b0b610414e.nakama-0: 15 files
+  413b9011-a43d-4957-a485-261668c9857b.nakama-0: 14 files
+  ead4c72d-0e3b-49b4-a91b-a9a21bed8012.nakama-0: 14 files
+
+Analyzing match: ff73c97b-3b34-4836-a8a1-47b2f94dd77c.nakama-0 (15 files)
+------------------------------------------------------------
+Total events in match: 921
+Players: 15
+  Humans: 1
+  Bots:   14
+
+Timestamp analysis:
+  dtype: datetime64[ms]
+  Global min: 1970-01-21 11:51:53.977000
+  Global max: 1970-01-21 11:51:54.676000
+  Range:      0 days 00:00:00.699000
+
+  As epoch ms:
+    min ms: 1770713977
+    max ms: 1770714676
+    range ms: 699
+
+Per-player timestamp ranges:
+  070cc1c5            :   68 events, range=327ms (0.3s)
+  bot_1432            :   68 events, range=362ms (0.4s)
+  bot_1435            :   75 events, range=373ms (0.4s)
+  bot_1443            :   35 events, range=185ms (0.2s)
+  bot_1447            :   45 events, range=229ms (0.2s)
+  bot_1450            :   38 events, range=223ms (0.2s)
+  bot_1453            :   37 events, range=223ms (0.2s)
+  bot_1457            :   56 events, range=267ms (0.3s)
+  bot_1460            :   38 events, range=189ms (0.2s)
+  bot_1463            :   65 events, range=322ms (0.3s)
+  bot_1467            :   84 events, range=444ms (0.4s)
+  bot_1470            :   89 events, range=448ms (0.4s)
+  bot_1473            :   25 events, range=157ms (0.2s)
+  bot_1477            :  128 events, range=694ms (0.7s)
+  bot_1480            :   70 events, range=376ms (0.4s)
+
+First 10 events for human 070cc1c5:
+  ts=1770713977ms  event=Position         x=-300.7 z=-355.9
+  ts=1770714007ms  event=Position         x=-276.2 z=-338.3
+  ts=1770714012ms  event=Position         x=-248.6 z=-331.4
+  ts=1770714017ms  event=Position         x=-230.1 z=-325.3
+  ts=1770714020ms  event=Loot             x=-226.6 z=-328.6
+  ts=1770714022ms  event=Position         x=-235.2 z=-335.6
+  ts=1770714028ms  event=Position         x=-219.5 z=-340.1
+  ts=1770714029ms  event=Loot             x=-217.0 z=-342.8
+  ts=1770714033ms  event=Position         x=-223.4 z=-341.9
+  ts=1770714038ms  event=Position         x=-221.0 z=-326.4

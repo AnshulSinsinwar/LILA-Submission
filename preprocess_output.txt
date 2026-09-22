@@ -1,0 +1,77 @@
+﻿======================================================================
+LILA PATHFINDER - PREPROCESSING PIPELINE
+======================================================================
+
+[1/6] Loading parquet files...
+  Reading February_10: 437 files... OK (437 loaded)
+  Reading February_11: 293 files... OK (293 loaded)
+  Reading February_12: 268 files... OK (268 loaded)
+  Reading February_13: 166 files... OK (166 loaded)
+  Reading February_14: 79 files... OK (79 loaded)
+
+  Total files loaded: 1243
+
+[2/6] Combining and transforming data...
+  Total raw events: 89104
+  Events after transformation: 89104
+  Event types found: ['BotKill', 'BotKilled', 'BotPosition', 'Kill', 'Killed', 'KilledByStorm', 'Loot', 'Position']
+
+[3/6] Computing match-level relative timestamps...
+  Match duration stats:
+    Min:    0.0s
+    Median: 0.4s
+    Max:    0.9s
+    Mean:   0.4s
+
+[4/6] Building JSON output files...
+  ambrose_valley.json: 566 matches, 2.23 MB
+  grand_rift.json: 59 matches, 0.25 MB
+  lockdown.json: 171 matches, 0.78 MB
+
+[5/6] Building metadata.json...
+  metadata.json: 200.4 KB
+
+[6/6] Optimizing minimaps...
+
+Optimizing minimaps:
+  AmbroseValley_Minimap.png      -> AmbroseValley_Minimap.webp      (9.3MB -> 76KB, 99% smaller)
+  GrandRift_Minimap.png          -> GrandRift_Minimap.webp          (2.7MB -> 74KB, 97% smaller)
+  Lockdown_Minimap.jpg           -> Lockdown_Minimap.webp           (11.3MB -> 84KB, 99% smaller)
+
+======================================================================
+PREPROCESSING COMPLETE
+======================================================================
+
+  Time elapsed: 30.0s
+
+  Data summary:
+    Total files processed:  1243
+    Total events:           89104
+    Unique human players:   245
+    Unique bots:            94
+    Unique matches:         796
+
+  Per-map breakdown:
+    AmbroseValley       :  566 matches,  217 humans,  61013 events
+    GrandRift           :   59 matches,   29 humans,   6853 events
+    Lockdown            :  171 matches,   79 humans,  21238 events
+
+  Event distribution:
+    Position            :  51347 (57.6%)
+    BotPosition         :  21712 (24.4%)
+    Loot                :  12885 (14.5%)
+    BotKill             :   2415 (2.7%)
+    BotKilled           :    700 (0.8%)
+    KilledByStorm       :     39 (0.0%)
+    Kill                :      3 (0.0%)
+    Killed              :      3 (0.0%)
+
+  Output files:
+    ambrose_valley.json           : 2.23 MB
+    grand_rift.json               : 257.2 KB
+    lockdown.json                 : 796.7 KB
+    metadata.json                 : 200.4 KB
+
+  Pipeline finished successfully!
+  Next: run 'npm run dev' to start the frontend.
+

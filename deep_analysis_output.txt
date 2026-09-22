@@ -1,0 +1,103 @@
+﻿============================================================
+1. EXTRACTION SIGNAL ANALYSIS
+============================================================
+
+
+--- AmbroseValley (566 matches, 836 players) ---
+  Players whose last position is near map edge: 1 (0.1%)
+  Storm deaths: 17
+  Combat deaths: 488
+  Players with no death event (survived/extracted?): 331
+
+--- GrandRift (59 matches, 111 players) ---
+  Players whose last position is near map edge: 0 (0.0%)
+  Storm deaths: 5
+  Combat deaths: 47
+  Players with no death event (survived/extracted?): 59
+
+--- Lockdown (171 matches, 295 players) ---
+  Players whose last position is near map edge: 0 (0.0%)
+  Storm deaths: 17
+  Combat deaths: 168
+  Players with no death event (survived/extracted?): 110
+
+============================================================
+2. LOOT vs TRAFFIC ZONE ANALYSIS
+============================================================
+
+
+--- AmbroseValley ---
+  Quadrant   Traffic%     Loot%        Kill%        Traffic/Loot Gap
+  NW         34.2         31.8         36.2         +2.5 
+  NE         10.2         9.1          6.7          +1.1 
+  SW         39.9         36.4         39.8         +3.5 
+  SE         15.7         22.8         17.3         -7.0 
+
+--- GrandRift ---
+  Quadrant   Traffic%     Loot%        Kill%        Traffic/Loot Gap
+  NW         33.7         33.1         33.8         +0.6 
+  NE         19.1         24.9         14.6         -5.8 
+  SW         26.1         23.5         32.5         +2.6 
+  SE         21.1         18.5         19.2         +2.6 
+
+--- Lockdown ---
+  Quadrant   Traffic%     Loot%        Kill%        Traffic/Loot Gap
+  NW         27.0         30.3         22.9         -3.4 
+  NE         37.1         39.5         35.4         -2.4 
+  SW         25.5         20.9         26.4         +4.6 
+  SE         10.4         9.3          15.3         +1.1 
+
+============================================================
+3. PvP CONTEXT ΓÇö WHERE DID THE 6 PvP EVENTS HAPPEN?
+============================================================
+
+All 6 PvP Kill/Killed events:
+  [AmbroseValley] match:042774ea... player:b2365f20... t=K pos=(342,461) ts=546ms bot=False
+  [AmbroseValley] match:042774ea... player:b2365f20... t=D pos=(342,461) ts=546ms bot=False
+  [AmbroseValley] match:c4a250c9... player:00f02e70... t=K pos=(438,368) ts=639ms bot=False
+  [AmbroseValley] match:c4a250c9... player:00f02e70... t=D pos=(438,368) ts=639ms bot=False
+  [GrandRift] match:711c9a67... player:7778267b... t=D pos=(420,374) ts=431ms bot=False
+  [GrandRift] match:711c9a67... player:7778267b... t=K pos=(420,374) ts=431ms bot=False
+
+============================================================
+4. MATCH COMPOSITION ANALYSIS
+============================================================
+
+--- AmbroseValley ---
+  Avg humans/match: 0.98
+  Avg bots/match: 0.50
+  Solo matches (1 human): 97.5%
+  Human:Bot ratio: 1:0.5
+
+--- GrandRift ---
+  Avg humans/match: 0.97
+  Avg bots/match: 0.92
+  Solo matches (1 human): 96.6%
+  Human:Bot ratio: 1:0.9
+
+--- Lockdown ---
+  Avg humans/match: 0.99
+  Avg bots/match: 0.73
+  Solo matches (1 human): 99.4%
+  Human:Bot ratio: 1:0.7
+
+============================================================
+5. STORM DEATH LOCATIONS
+============================================================
+
+Total storm deaths: 39
+  [AmbroseValley] pos=(196,204)
+  [AmbroseValley] pos=(460,381)
+  [AmbroseValley] pos=(207,745)
+  [AmbroseValley] pos=(656,278)
+  [AmbroseValley] pos=(419,487)
+  [AmbroseValley] pos=(300,147)
+  [AmbroseValley] pos=(470,701)
+  [AmbroseValley] pos=(442,681)
+  [AmbroseValley] pos=(532,516)
+  [AmbroseValley] pos=(416,325)
+  [AmbroseValley] pos=(686,509)
+  [AmbroseValley] pos=(633,862)
+  [AmbroseValley] pos=(491,397)
+  [AmbroseValley] pos=(451,520)
+  [AmbroseValley] pos=(647,568)

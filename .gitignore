@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+player_data/
+__pycache__/
+*.pyc
+.DS_Store
+duration_check.txt
+*.parquet

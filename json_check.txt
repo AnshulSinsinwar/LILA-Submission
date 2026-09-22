@@ -1,0 +1,37 @@
+﻿=== METADATA ===
+Total events: 89104
+Unique players: 245
+Unique bots: 94
+Unique matches: 796
+  AmbroseValley: 566 matches
+  GrandRift: 59 matches
+  Lockdown: 171 matches
+Event key legend: {'P': 'Position', 'BP': 'BotPosition', 'K': 'Kill', 'D': 'Killed', 'BK': 'BotKill', 'BD': 'BotKilled', 'S': 'KilledByStorm', 'L': 'Loot'}
+Sample match: {
+  "id": "00b34c64-8746-44aa-b527-72ac0d971251",
+  "map": "Lockdown",
+  "date": "February_10",
+  "h": 1,
+  "bc": 0,
+  "events": 133,
+  "dur": 754,
+  "kills": 4,
+  "deaths": 1,
+  "loots": 20
+}
+
+=== AMBROSE VALLEY SAMPLE ===
+Map: AmbroseValley
+Matches: 566
+First match: 00c95178-f9c3-4007-aa30-2363a0bfa965
+  Date: February_11
+  Humans: 1, Bots: 0
+  Duration: 256ms
+  Players: 1
+  First player: dfe4466b-e787-4c...
+    is_bot: False
+    events: 55
+    first 3 events:
+      {'t': 'P', 'px': 227, 'py': 101, 'ts': 0}
+      {'t': 'P', 'px': 236, 'py': 121, 'ts': 20}
+      {'t': 'P', 'px': 227, 'py': 134, 'ts': 25}

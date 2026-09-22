@@ -1,0 +1,143 @@
+﻿======================================================================
+LILA PATHFINDER ΓÇö DATA EXPLORATION & VALIDATION
+======================================================================
+
+≡ƒôé Loading sample from February_10 (up to 50 files)...
+   Loaded 3588 events from 50 files
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+TEST 1: EVENT COLUMN ΓÇö BYTES DECODING
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+   Raw event dtype: object
+   Sample raw values: [b'Position', b'Position', b'Position']
+
+   Γ£à Unique event types (6): ['BotKill', 'BotKilled', 'BotPosition', 'KilledByStorm', 'Loot', 'Position']
+
+   Event distribution:
+      Position               1699  (47.4%)
+      BotPosition            1414  (39.4%)
+      Loot                    370  (10.3%)
+      BotKill                  74  (2.1%)
+      BotKilled                30  (0.8%)
+      KilledByStorm             1  (0.0%)
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+TEST 2: BOT vs HUMAN DETECTION (user_id format)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+   Unique human players (UUID): 9
+   Unique bots (numeric):       19
+
+   Bot event types:   ['BotKill', 'BotKilled', 'BotPosition', 'Loot', 'Position']
+   Human event types: ['BotKill', 'BotKilled', 'KilledByStorm', 'Loot', 'Position']
+
+   ΓÜá∩╕Å  71 bot rows have non-Bot event types:
+       {'Position': 67, 'Loot': 4}
+   ΓÜá∩╕Å  83 human rows have Bot event types
+
+   Sample bot user_ids: ['1388', '1392', '1396', '1400', '1405']
+   Sample human user_ids: ['0019c582-574d-4a53-9f77-554519b75b4c', '01b1d208-ff00-47f0-a055-17d1022b866c', '036692b4-8185-422d-823a-9e4c394ba75e']
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+TEST 3: COORDINATE MAPPING ΓÇö WORLD ΓåÆ PIXEL
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+   ≡ƒôÉ README Example Verification (AmbroseValley):
+      World: x=-301.45, z=-355.55
+      u=0.0762, v=0.1305
+      pixel_x=78, pixel_y=890
+      Expected: px=78, py=890
+      Γ£à MATCH
+
+   ≡ƒôÉ Computing pixel coords for all 3588 events...
+
+      AmbroseValley (1734 events):
+         px range: [55, 731]
+         py range: [106, 903]
+         Out of bounds: 0/1734 (0.0%)
+
+      GrandRift (330 events):
+         px range: [118, 780]
+         py range: [274, 821]
+         Out of bounds: 0/330 (0.0%)
+
+      Lockdown (1524 events):
+         px range: [157, 837]
+         py range: [201, 700]
+         Out of bounds: 0/1524 (0.0%)
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+TEST 4: MATCH_ID NORMALIZATION
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+   Total unique match_ids in sample: 31
+   With .nakama-0 suffix: 31/31
+   Sample match_ids:
+      Raw:   1298e3e2-2776-4038-ba9b-72808b041561.nakama-0
+      Clean: 1298e3e2-2776-4038-ba9b-72808b041561
+      Raw:   ae8f6cdf-3495-48cc-849d-5b5339a7cca1.nakama-0
+      Clean: ae8f6cdf-3495-48cc-849d-5b5339a7cca1
+      Raw:   c3a6fc96-69b6-41a9-ad26-1ac3297e5c65.nakama-0
+      Clean: c3a6fc96-69b6-41a9-ad26-1ac3297e5c65
+
+   Filename-vs-data check:
+      File:        0019c582-574d-4a53-9f77-554519b75b4c_1298e3e2-2776-4038-ba9b-72808b041561.nakama-0
+      File match:  1298e3e2-2776-4038-ba9b-72808b041561.nakama-0
+      Data match:  1298e3e2-2776-4038-ba9b-72808b041561.nakama-0
+      Γ£à Consistent
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+TEST 5: DATA SHAPE & DISTRIBUTION
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+   ≡ƒôè Files per day:
+      February_10: 437 files
+      February_11: 293 files
+      February_12: 268 files
+      February_13: 166 files
+      February_14: 79 files
+
+   ≡ƒôè Map distribution (in sample):
+      AmbroseValley: 1734 events (48.3%)
+      Lockdown: 1524 events (42.5%)
+      GrandRift: 330 events (9.2%)
+
+   ≡ƒôè Timestamp analysis:
+      dtype: datetime64[ms]
+      min: 1970-01-21 11:51:39.273000
+      max: 1970-01-21 11:52:46.968000
+      Match 1298e3e2... duration: 0 days 00:00:00.382000
+      Match ae8f6cdf... duration: 0 days 00:00:00.166000
+      Match c3a6fc96... duration: 0 days 00:00:00.716000
+
+   ≡ƒôè Column dtypes:
+      user_id         object               sample: 0019c582-574d-4a53-9f77-554519b75b4c
+      match_id        object               sample: 1298e3e2-2776-4038-ba9b-72808b041561.nakama-0
+      map_id          object               sample: AmbroseValley
+      x               float32              sample: -315.3538818359375
+      y               float32              sample: 125.67549133300781
+      z               float32              sample: -2.5926055908203125
+      ts              datetime64[ms]       sample: 1970-01-21 11:52:34.537000
+      event           object               sample: b'Position'
+      event_str       object               sample: Position
+      is_human        bool                 sample: True
+      is_bot          bool                 sample: False
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+TEST 6: Y-AXIS (ELEVATION) ANALYSIS
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+   y (elevation) range: [8.57, 152.21]
+   y mean: 77.10, std: 37.68
+   Γä╣∩╕Å  Confirming y is elevation, not map coordinate (wide range = 3D height)
+
+======================================================================
+VALIDATION SUMMARY
+======================================================================
+
+Γ£à = Confirmed   ΓÜá∩╕Å = Needs attention   Γ¥î = Failed
+
+Check the output above for each test result.
+If all Γ£à, proceed to building preprocess.py with confidence.
+
